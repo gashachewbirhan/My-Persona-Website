@@ -3,69 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY PERSONAL WEBSITE</title>
-    <link rel="stylesheet" href="styl.css">
+    <title>Gashachew Birhan | Personal Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--Header-->
+
+    <!-- Header & Navigation -->
     <header>
-        <h1>Selam! My Name Is Gashachew Birhan</h1>
-        <p><strong>I am a 3rd Year Computer Science Student</strong></p>
-        <p>I am currently focusing on software development, web programming, and networking.</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Selam! I am Gashachew Birhan</h1>
+            <p><strong>3rd Year Computer Science Student @ Debark University</strong></p>
+            <p>Passionate about Software Development, Web Programming, and Networking.</p>
+        </div>
     </header>
 
     <main>
-        <!--About Me-->
-        <section>
+        <!-- About Me Section -->
+        <section id="about">
             <h2>About Me</h2>
-            <p>I am currently studying Computer Science at Debark University (DKU).</p>
+            <p>I am currently studying Computer Science at Debark University (DKU). My academic journey and personal projects focus on building efficient desktop applications, web software, and network architecture solutions.</p>
         </section>
 
-        <!--Skills AND Technologies-->
-        <section>
-            <h3>Skills and Technologies</h3>
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills & Technologies</h2>
             <ul>
-                <li><strong>Programming Languages:</strong> C++, Java, Data Structures</li>
-                <li><strong>Web Development:</strong> HTML, CSS, JavaScript</li>
-                <li><strong>Database:</strong> MySQL</li>
+                <li><strong>Programming Languages:</strong> C++, Java, Data Structures & Algorithms</li>
+                <li><strong>Web Development:</strong> HTML5, CSS3, JavaScript, PHP</li>
+                <li><strong>Databases:</strong> MySQL, SQL Server (T-SQL)</li>
+                <li><strong>Tools & Networking:</strong> Git, GitHub, Cisco Packet Tracer, VS Code, XAMPP</li>
             </ul>
         </section>
 
-        <!--Projects-->
-        <section>
-            <h3>Projects</h3>
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Featured Projects</h2>
             
-            <article>
+            <article class="project-card">
                 <h3>1. Banking Management System</h3>
                 <p>በSQL Server እና T-SQL የተሰራ የባንክ ዳታቤዝ እና የደንበኞች መረጃ ማስተዳደሪያ ፕሮጀክት።</p>
-                <p><em>የተጠቀስኳቸው ቴክኖሎጂዎች፦ SQL Server, SSMS, Relational Database</em></p>
+                <p><em>Technologies: SQL Server, SSMS, T-SQL, Relational Database</em></p>
             </article>
 
-            <article>
+            <article class="project-card">
                 <h3>2. Student Registration App</h3>
                 <p>በJava Swing የተሰራ የተማሪዎች ምዝገባ እና የመረጃ መቆጣጠሪያ ዴስክቶፕ አፕሊኬሽን።</p>
-                <p><em>የተጠቀስኳቸው ቴክኖሎጂዎች፦ Java, Swing, OOP</em></p>
+                <p><em>Technologies: Java, Java Swing, OOP</em></p>
             </article>
 
-            <article>
+            <article class="project-card">
                 <h3>3. IS-IS Network Topology</h3>
                 <p>በCisco Packet Tracer የተሰራ የ3-Subnet አውታረ መረብ እና Routing Protocol ውቅር።</p>
-                <p><em>የተጠቀስኳቸው ቴክኖሎጂዎች፦ Networking, Packet Tracer</em></p>
+                <p><em>Technologies: Computer Networking, Cisco Packet Tracer, IS-IS Protocol</em></p>
             </article>
         </section>
 
-        <!--Education-->
-        <section>
+        <!-- Education Section -->
+        <section id="education">
             <h2>Education</h2>
-            <ol>
-                <li>Bachelor of Science (BSc) in Computer Science</li>
-                <li>2026 - Present (3rd Year Student)</li>
-            </ol>
+            <ul>
+                <li>
+                    <strong>Bachelor of Science (BSc) in Computer Science</strong><br>
+                    Debark University (2024 - Present) — 3rd Year Student
+                </li>
+            </ul>
         </section>
     </main> 
 
-    <!--Footer-->
-    <footer>
+    <!-- Footer Section -->
+    <footer id="contact">
         <h2>Contact Me</h2>
         <p>Email: <a href="mailto:gashachewbrhan@gmail.com">gashachewbrhan@gmail.com</a></p>
         <p>Telegram: <a href="https://t.me/gashachewbrhan" target="_blank">@gashachewbrhan</a></p>
@@ -73,5 +88,6 @@
         <br>
         <p><small>&copy; 2026 Gashachew Birhan. All rights reserved.</small></p>
     </footer> 
+
 </body>
 </html>
